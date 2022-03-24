@@ -8,7 +8,7 @@
 rm -rf dockerimages
 mkdir dockerimages
 cd dockerimages
-cp /usr/lib/jenkins/workspace/PackageJob/gameoflife-web/target/gameoflife.war .
+cp /var/lib/jenkins/workspace/MavenPipeline/target/helloworld-0.0.1.war .
 touch dockerfile
 cat <<EOT>> dockerfile
 FROM tomcat
